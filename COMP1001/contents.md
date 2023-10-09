@@ -4,3 +4,4 @@
 - [2023-09-28](/learning-uni/COMP1001/notes/2023-09-28.md) - Introduction to Positional Numbering Systems
 - [2023-10-02](/learning-uni/COMP1001/notes/2023-10-02.md) - Introduction to CPU Hardware Architectures
 - [2023-10-05](/learning-uni/COMP1001/notes/2023-10-05.md) - Introduction to Assembly I
+- [2023-10-09](/learning-uni/COMP1001/notes/2023-10-09.md) - Assembly II
