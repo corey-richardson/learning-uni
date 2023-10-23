@@ -8,3 +8,4 @@
 - [2023-10-12](/learning-uni/COMP1001/notes/2023-10-12.md) - Assembly III
 - [2023-10-16](/learning-uni/COMP1001/notes/2023-10-16.md) - Instruction Pipelines and Hazards
 - [2023-10-19](/learning-uni/COMP1001/notes/2023-10-19.md) - Modern CPU Hardware Architectures
+- [2023-10-23](/learning-uni/COMP1001/notes/2023-10-23.md) - Revision and Coursework Support Session I
