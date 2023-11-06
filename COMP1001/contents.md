@@ -11,3 +11,4 @@
 - [2023-10-23](/learning-uni/COMP1001/notes/2023-10-23.md) - Revision and Coursework Support Session I
 - [2023-10-30](/learning-uni/COMP1001/notes/2023-10-30.md) - C Programming I
 - [2023-11-02](/learning-uni/COMP1001/notes/2023-11-02.md) - C Programming II
+- [2023-11-06](/learning-uni/COMP1001/notes/2023-11-06.md) - Vectorization I, Writing Assembly in C/C++
