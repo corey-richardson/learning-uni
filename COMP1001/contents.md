@@ -14,3 +14,4 @@
 - [2023-11-06](/learning-uni/COMP1001/notes/2023-11-06.md) - Vectorization I, Writing Assembly in C/C++
 - [2023-11-13](/learning-uni/COMP1001/notes/2023-11-13.md) - Memory Hierarchy and Cache
 - [2023-11-20](/learning-uni/COMP1001/notes/2023-11-20.md) - Operating Systems
+- [2023-11-23](/learning-uni/COMP1001/notes/2023-11-23.md) - Linux
