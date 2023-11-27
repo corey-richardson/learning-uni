@@ -15,3 +15,4 @@
 - [2023-11-13](/learning-uni/COMP1001/notes/2023-11-13.md) - Memory Hierarchy and Cache
 - [2023-11-20](/learning-uni/COMP1001/notes/2023-11-20.md) - Operating Systems
 - [2023-11-23](/learning-uni/COMP1001/notes/2023-11-23.md) - Linux
+- [2023-11-27](/learning-uni/COMP1001/notes/2023-11-27.md) - Memory Management
