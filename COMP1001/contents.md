@@ -17,3 +17,4 @@
 - [2023-11-23](/learning-uni/COMP1001/notes/2023-11-23.md) - Linux
 - [2023-11-27](/learning-uni/COMP1001/notes/2023-11-27.md) - Memory Management
 - [2023-11-30](/learning-uni/COMP1001/notes/2023-11-30.md) - Processes
+- [2023-12-04](/learning-uni/COMP1001/notes/2023-12-04.md) - Threads, OpenMP
