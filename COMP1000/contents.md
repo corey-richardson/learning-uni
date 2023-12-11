@@ -8,3 +8,4 @@
 - [2023-10-30](/learning-uni/COMP1000/notes/2023-10-30.md) - Classes and Object Oriented Programming
 - [2023-11-06](/learning-uni/COMP1000/notes/2023-11-06.md) - Coursework Spec and Vectors
 - [2023-11-13](/learning-uni/COMP1000/notes/2023-11-13.md) - Coursework Description, CL Arguments and OOP
+- [2023-12-11](/learning-uni/COMP1000/notes/2023-12-11.md) - Qt GUI Development
