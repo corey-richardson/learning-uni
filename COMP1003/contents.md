@@ -6,3 +6,4 @@
 - [2024-02-05](/learning-uni/COMP1003/notes/2024-02-05.md) - Special Functions, Derivative, Integral
 - [2024-02-15](/learning-uni/COMP1003/notes/2024-02-15.md) - Probability and Combinatorics
 - [2024-02-19](/learning-uni/COMP1003/notes/2024-02-19.md) - Formal Langauge and Automata
+- [2024-02-26](/learning-uni/COMP1003/notes/2024-02-26.md) - Vectors and Matrices
