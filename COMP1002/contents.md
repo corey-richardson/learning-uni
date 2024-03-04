@@ -8,3 +8,5 @@
 - [2024-02-08](/learning-uni/COMP1002/notes/2024-02-08.md) - Ethical Hacking Demo
 - [2024-02-12](/learning-uni/COMP1002/notes/2024-02-12.md) - DNS, Network Configurations 
 - [2024-02-15](/learning-uni/COMP1002/notes/2024-02-15.md) - Transport Layer
+- [2024-02-19](/learning-uni/COMP1002/notes/2024-02-19.md) - Network Security
+- [2024-02-26](/learning-uni/COMP1002/notes/2024-02-26.md) - Network Layer and IP Addressing
