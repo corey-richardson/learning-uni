@@ -10,3 +10,4 @@
 - [2024-02-15](/learning-uni/COMP1002/notes/2024-02-15.md) - Transport Layer
 - [2024-02-19](/learning-uni/COMP1002/notes/2024-02-19.md) - Network Security
 - [2024-02-26](/learning-uni/COMP1002/notes/2024-02-26.md) - Network Layer and IP Addressing
+- [2024-03-04](/learning-uni/COMP1002/notes/2024-03-04.md) - Cryptography
