@@ -12,3 +12,4 @@
 - [2024-02-26](/learning-uni/COMP1002/notes/2024-02-26.md) - Network Layer and IP Addressing
 - [2024-02-29](/learning-uni/COMP1002/notes/2024-02-29.md) - IP Subnetting and IPv6
 - [2024-03-04](/learning-uni/COMP1002/notes/2024-03-04.md) - Cryptography
+- [2024-03-11](/learning-uni/COMP1002/notes/2024-03-11.md) - Link Layer and Enterprise Switching
