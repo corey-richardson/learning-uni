@@ -14,3 +14,4 @@
 - [2024-03-04](/learning-uni/COMP1002/notes/2024-03-04.md) - Cryptography
 - [2024-03-11](/learning-uni/COMP1002/notes/2024-03-11.md) - Link Layer and Enterprise Switching
 - [2024-03-14](/learning-uni/COMP1002/notes/2024-03-14.md) - VLANs
+- [2024-03-18](/learning-uni/COMP1002/notes/2024-03-18.md) - Authentication Technologies
