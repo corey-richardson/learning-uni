@@ -19,6 +19,16 @@
             ll.prepend(0);
 
             ll.display();
+            Console.WriteLine(ll.stringify());
+            Console.WriteLine(ll.getLength());
+
+            Console.WriteLine(ll.getIndex(10));
+            Console.WriteLine(ll.getIndex(11));
+
+            ll.removeByValue(5);
+            ll.removeByValue(0);
+            ll.removeByValue(0);
+            ll.display();
         }
     }
 }

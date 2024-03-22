@@ -2,16 +2,16 @@
 {
     internal class Node
     {
-        private int value;
+        private int? value;
         private Node? nextNode;
 
-        public Node(int val, Node? next = null)
+        public Node(int? val = null, Node? next = null)
         {
             value = val;
             nextNode = next;
         }
 
-        public int getNodeValue()
+        public int? getNodeValue()
         {
             return value;
         }
