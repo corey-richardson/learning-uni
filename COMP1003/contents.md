@@ -10,3 +10,4 @@
 - [2024-03-04](/learning-uni/COMP1003/notes/2024-03-04.md) - Module Content and Aims, Syntax and Semantics
 - [2024-03-18](/learning-uni/COMP1003/notes/2024-03-18.md) - Stack and Queue
 - [2024-03-21](/learning-uni/COMP1003/notes/2024-03-21.md) - Linked Lists
+- [2024-04-15](/learning-uni/COMP1003/notes/2024-04-15.md) - Complexity
