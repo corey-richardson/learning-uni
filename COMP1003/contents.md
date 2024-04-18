@@ -11,3 +11,4 @@
 - [2024-03-18](/learning-uni/COMP1003/notes/2024-03-18.md) - Stack and Queue
 - [2024-03-21](/learning-uni/COMP1003/notes/2024-03-21.md) - Linked Lists
 - [2024-04-15](/learning-uni/COMP1003/notes/2024-04-15.md) - Complexity
+- [2024-04-18](/learning-uni/COMP1003/notes/2024-04-18.md) - Trees
