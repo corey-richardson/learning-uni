@@ -6,3 +6,5 @@
 - [Interaction Design and Usability](/learning-uni/COMP2000/2024-10-25.md)
 - [Activities and Intents in Android Programming](/learning-uni/COMP2000/2024-11-01.md)
 - [Menus, RecyclerView and Fragments in Android Programming](/learning-uni/COMP2000/2024-11-08.md)
+- [Web Services and APIs](/learning-uni/COMP2000/2024-11-15.md)
+- [Introduction to Parallel Programming](/learning-uni/COMP2000/2024-11-22.md)
