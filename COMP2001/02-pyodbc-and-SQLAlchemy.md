@@ -5,6 +5,7 @@
         - [install-pyodbc](#install-pyodbc)
         - [install-microsoft-odbc-driver-for-sql-server](#install-microsoft-odbc-driver-for-sql-server)
     - [add-the-pyodbc-library-to-your-python-code](#add-the-pyodbc-library-to-your-python-code)
+    - [connect-to-localhost-sql-server-with-docker-and-azure-data-studio](#connect-to-localhost-sql-server-with-docker-and-azure-data-studio)
     - [set-up-the-connection-string](#set-up-the-connection-string)
     - [establish-a-connection](#establish-a-connection)
     - [create-a-cursor-and-execute-sql-commands](#create-a-cursor-and-execute-sql-commands)
@@ -58,6 +59,31 @@ Run `msodbcsql.msi`.
 import pyodbc
 ```
 
+### Connect to localhost SQL Server with Docker and Azure Data Studio
+
+Run Docker image from Docker Desktop
+
+```cmd
+docker ps
+````
+
+On Azure Data Studio, click the Connections icon at the top of the screen and create a new connection.
+
+```
+Server : localhost
+Authentication type : SQL Login
+User name : SA
+Password : C0mp2001!
+(given in code above)
+Name : localhost-sqlserv
+```
+
+Open up a new query window and type the following command.
+
+```sql
+CREATE database Flask_Tutorial;
+```
+
 ### Set Up the Connection String
 
 Gather the following information from your Azure SQL Database
@@ -67,6 +93,14 @@ server = 'dist-6-505.uopnet.plymouth.ac.uk'
 database = 'your_database_name'
 username = 'your_username'
 password = 'your_password'
+driver = '{ODBC Driver 17 for SQL Server}'
+```
+
+```py
+server = 'localhost'
+database = 'Flask_Tutorial'
+username = 'SA'
+password = 'C0mp2001!'
 driver = '{ODBC Driver 17 for SQL Server}'
 ```
 
@@ -289,13 +323,30 @@ Now that your database exists, you can add data to it.
 
 ```py
 >>> people = [
-... "'Grace', 'Hopper', '2024-11-19 16:15:10'",
-... "'Tim', 'Berners-Lee', '2024-11-19 16:15:13'",
-... "'Ada', 'Lovelace', '2024-11-19 16:15:27'",
+... "'Hopper', 'Grace', '2024-11-19 16:15:10'",
+... "'Berners-Lee', 'Tim', '2024-11-19 16:15:13'",
+... "'Lovelace', 'Ada', '2024-11-19 16:15:27'",
 ... ]
 
 >>> for person_data in people:
 ...     insert_cmd = f"INSERT INTO person VALUES ({person_data})"
+...     cursor.execute(insert_cmd)
+...
+>>> cursor.commit()
+```
+
+```py
+people = [
+    "'Hopper', 'Grace', '2024-11-19 16:15:10'",
+    "'Berners-Lee', 'Tim', '2024-11-19 16:15:13'",
+    "'Lovelace', 'Ada', '2024-11-19 16:15:27'",
+]
+
+for person_data in people:
+    insert_cmd = f"INSERT INTO person VALUES ({person_data})"
+    cursor.execute(insert_cmd)
+
+cursor.commit()
 ```
 
 ### Interact With the Database
