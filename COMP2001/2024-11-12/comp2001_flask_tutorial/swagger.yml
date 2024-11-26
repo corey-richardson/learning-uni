@@ -1,0 +1,123 @@
+# swagger.yml
+
+# Your swagger.yml file acts like a blueprint, defining how your API handles requests and responses.
+# It specifies what data your web server should expect and how it should respond.
+
+# The first thing you need in your API definition is the openapi keyword to specify which OpenAPI version you're using.
+# This version number is crucial since OpenAPI's structure might change between different versions.
+
+openapi: 3.0.0
+info:
+  title: "RP Flask REST API"
+  description:  "An API about people and notes"
+  version: "1.0.0"
+
+# When you set url to "/api" , all your API endpoints will be accessible starting with http://localhost:8000/api.
+
+servers:
+  - url: "/api"
+
+# Add a components block that defines the structure of a person record using schemas
+# The components block helps organize reusable elements of your API.
+
+components:
+  schemas:
+    Person:
+      type: "object"
+      required:
+        - lname
+      properties:
+        fname:
+          type: "string"
+        lname:
+          type: "string"
+
+  parameters:
+    lname:
+      name: "lname"
+      description: "Last name of the person to get"
+      in: path
+      required: true
+      schema:
+        type: "string"
+
+
+# The paths block configures your API endpoint URLs. When you specify /people as the relative URL and get as the
+# HTTP method, you're creating an endpoint that responds to GET requests.
+# Combined with the "/api" server URL you defined earlier, this creates the complete endpoint
+# http://localhost:8000/api/people .
+
+paths:
+  /people:
+    get:
+      operationId: "people.read_all"
+      tags:
+      - "People"
+      summary: "Read the list of people"
+      responses:
+        "200":
+          description: "Successfully read people list"
+
+    # In the /people section, add a new post block to handle requests for creating new people
+    post:
+      operationId: "people.create"
+      tags:
+        - People
+      summary: "Create a person"
+      requestBody:
+        description: "Person to create"
+        required: true
+        content:
+          application/json:
+            schema:
+              x-body-name: "person"
+              $ref: "#/components/schemas/Person"
+      responses:
+        "201":
+          description: "Successfully created person"
+
+  /people/{lname}:
+    get:
+      tags:
+        - People
+      operationId: "people.read_one"
+      summary: "Read one person"
+      parameters:
+        - $ref: "#/components/parameters/lname"
+      responses:
+        "200":
+          description: "Successfully read person"
+      requestBody:
+        content:
+          application/json:
+            schema:
+              x-body-name: "person"
+              $ref: "#/components/schemas/Person"
+
+    put:
+      tags:
+        - People
+      operationId: "people.update"
+      summary: "Update a person"
+      parameters:
+        - $ref: "#/components/parameters/lname"
+      responses:
+        "200":
+          description: "Successfully updated person"
+      requestBody:
+        content:
+          application/json:
+            schema:
+              x-body-name: "person"
+              $ref: "#/components/schemas/Person"
+
+    delete:
+      tags:
+        - People
+      operationId: "people.delete"
+      summary: "Delete a person"
+      parameters:
+        - $ref: "#/components/parameters/lname"
+      responses:
+        "204":
+          description: "Successfully deleted person"
