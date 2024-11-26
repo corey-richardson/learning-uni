@@ -399,12 +399,10 @@ paths:
       responses:
         "200":
           description: "Successfully read person"
-      requestBody:
-        content:
-          application/json:
-            schema:
-              x-body-name: "person"
-              $ref: "#/components/schemas/Person"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Person"
 ```
 
 Like the `/people` endpoint, you start by defining a get operation, but this time for `/people/{lname}`. The `{lname}` in the path is a variable - when someone makes a request, they'll replace it with an actual last name. 

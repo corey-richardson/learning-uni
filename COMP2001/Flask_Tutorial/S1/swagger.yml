@@ -75,6 +75,10 @@ paths:
       responses:
         "201":
           description: "Successfully created person"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Person"
 
   /people/{lname}:
     get:
@@ -87,12 +91,10 @@ paths:
       responses:
         "200":
           description: "Successfully read person"
-      requestBody:
-        content:
-          application/json:
-            schema:
-              x-body-name: "person"
-              $ref: "#/components/schemas/Person"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Person"
 
     put:
       tags:
