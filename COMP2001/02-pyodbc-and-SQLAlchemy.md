@@ -213,7 +213,7 @@ SQLAlchemy works as an ORM (Object-Relational Mapper), meaning it can store Pyth
 Within your virtual environment, execute:
 
 ```bash
-pip install -r requirments.txt
+pip install -r requirements.txt
 ```
 
 ```
