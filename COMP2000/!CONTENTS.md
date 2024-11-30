@@ -8,3 +8,4 @@
 - [Menus, RecyclerView and Fragments in Android Programming](/learning-uni/COMP2000/2024-11-08.md)
 - [Web Services and APIs](/learning-uni/COMP2000/2024-11-15.md)
 - [Introduction to Parallel Programming](/learning-uni/COMP2000/2024-11-22.md)
+- [Notifications and SQLite](/learning-uni/COMP2000/2024-11-29.md)
