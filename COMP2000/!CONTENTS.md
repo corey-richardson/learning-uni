@@ -9,3 +9,4 @@
 - [Web Services and APIs](/learning-uni/COMP2000/2024-11-15.md)
 - [Introduction to Parallel Programming](/learning-uni/COMP2000/2024-11-22.md)
 - [Notifications and SQLite](/learning-uni/COMP2000/2024-11-29.md)
+- [Design Patterns and SOLID Principles](/learning-uni/COMP2000/2024-12-08.md)
