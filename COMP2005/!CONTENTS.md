@@ -3,3 +3,4 @@
 - [Introduction, Software Development Lifecycle](/learning-uni/COMP2005/2025-01-28.md) 
 - [Software Testing](/learning-uni/COMP2005/2025-02-04.md)
 - [Unit Testing](/learning-uni/COMP2005/2025-02-11.md)
+- [Integration Testing](/learning-uni/COMP2005/2025-02-18.md)
