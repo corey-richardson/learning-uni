@@ -1,0 +1,12 @@
+.vs/
+.vscode/
+*.exe
+.idea/
+*.pyd
+*.pyc
+*.pyi
+
+learning-cs50sql/**/*.db
+learning-cs50ai/**/*.csv
+
+.wakatime.cfg
